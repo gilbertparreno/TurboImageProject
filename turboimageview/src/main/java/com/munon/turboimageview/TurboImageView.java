@@ -15,7 +15,7 @@ import java.util.Iterator;
 public class TurboImageView extends View implements MultiTouchObjectCanvas<MultiTouchObject> {
     private static final String TAG = "TurboImageView";
 
-    private ArrayList<MultiTouchObject> mImages = new ArrayList<>();
+    public ArrayList<MultiTouchObject> mImages = new ArrayList<>();
     private MultiTouchController<MultiTouchObject> multiTouchController = new MultiTouchController<>(
         this);
 
